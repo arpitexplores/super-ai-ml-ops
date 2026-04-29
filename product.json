@@ -1,7 +1,7 @@
 {
   "name": "super-ai-ml-ops",
   "title": "Super AI/ML Ops",
-  "description": "AI/ML operations: evaluation, monitoring, cost control, and reliability. Use for productionizing AI systems.",
+  "description": "The go-to AI vibe coding skill for AI operations: LLM evaluation, monitoring, cost control, reliability, latency, release gates, and production AI governance.",
   "version": "0.1.0",
   "source_catalogue": "skills-super",
   "skill_entrypoint": "SKILL.md",
@@ -14,5 +14,17 @@
       "name": "LLM Ops",
       "path": "references/modules/llm-ops.md"
     }
+  ],
+  "keywords": [
+    "LLM evaluation",
+    "AI monitoring",
+    "LLMOps",
+    "MLOps",
+    "AI reliability",
+    "LLM cost optimisation",
+    "AI observability",
+    "release gates",
+    "AI vibe coding",
+    "agent skills"
   ]
 }
