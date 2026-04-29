@@ -1,0 +1,4 @@
+interface:
+  display_name: "Super AI/ML Ops"
+  short_description: "LLM evaluation, monitoring, and deployment ops"
+  default_prompt: "Use $super-ai-ml-ops to help with this request."
