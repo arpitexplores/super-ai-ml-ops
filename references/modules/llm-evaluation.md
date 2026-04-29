@@ -1,5 +1,4 @@
-## Source: references/skills/llm-evaluation/SKILL.md
-
+## Module: Llm Evaluation
 ---
 name: llm-evaluation
 description: "Implement comprehensive evaluation strategies for LLM applications using automated metrics, human feedback, and benchmarking. Use when testing LLM performance, measuring AI application quality, or ..."
@@ -489,7 +488,7 @@ class BenchmarkRunner:
 
 ---
 
-## Merged Reference (legacy variant)
+## Imported Reference
 
 ---
 name: evaluation
@@ -733,7 +732,7 @@ External resources:
 
 ---
 
-## Merged Reference (legacy variant)
+## Imported Reference
 
 ---
 name: agent-evaluation
@@ -807,7 +806,7 @@ This skill is applicable to execute the workflow or actions described in the ove
 
 ---
 
-## Merged Reference (legacy variant)
+## Imported Reference
 
 ---
 name: advanced-evaluation
@@ -1263,8 +1262,7 @@ Related skills in this collection:
 **Author**: Muratcan Koylan
 **Version**: 1.0.0
 
-## Source: references/skills/llm-evaluation/references/legacy/advanced-evaluation/SKILL.md
-
+## Imported Module: Advanced Evaluation
 ---
 name: advanced-evaluation
 description: This skill should be used when the user asks to "implement LLM-as-judge", "compare model outputs", "create evaluation rubrics", "mitigate evaluation bias", or mentions direct scoring, pairwise comparison, position bias, evaluation pipelines, or automated quality assessment.
@@ -1720,8 +1718,7 @@ Related skills in this collection:
 **Version**: 1.0.0
 
 
-## Source: references/skills/llm-evaluation/references/legacy/agent-evaluation/SKILL.md
-
+## Imported Module: Agent Evaluation
 ---
 name: agent-evaluation
 description: "Testing and benchmarking LLM agents including behavioral testing, capability assessment, reliability metrics, and production monitoring\u2014where even top agents achieve less than 50% on re..."
@@ -1792,8 +1789,7 @@ Works well with: `multi-agent-orchestration`, `agent-communication`, `autonomous
 ## When to Use
 This skill is applicable to execute the workflow or actions described in the overview.
 
-## Source: references/skills/llm-evaluation/references/legacy/evaluation/SKILL.md
-
+## Imported Module: Evaluation
 ---
 name: evaluation
 description: "Build evaluation frameworks for agent systems"

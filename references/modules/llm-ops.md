@@ -1,5 +1,4 @@
-## Source: references/skills/llm-ops/SKILL.md
-
+## Module: Llm Ops
 ---
 name: llm-ops
 description: 'LLM Operations -- RAG, embeddings, vector databases, fine-tuning, prompt engineering avancado, custos de LLM, evals de qualidade e arquiteturas de IA para producao. Ativar para: implementar
@@ -161,7 +160,7 @@ PROBLEMA: {problem}
 ".join(steps) + "
 
 Resposta final (concisa, para voz):"
-        return call_claude(prompt)
+        return call_model(prompt)
 
 ---
 
@@ -262,7 +261,7 @@ Criterios:
 
 ---
 
-## Merged Reference (legacy variant)
+## Imported Reference
 
 ---
 name: prompt-caching
@@ -333,7 +332,7 @@ This skill is applicable to execute the workflow or actions described in the ove
 
 ---
 
-## Merged Reference (legacy variant)
+## Imported Reference
 
 ---
 name: langfuse
@@ -581,7 +580,7 @@ This skill is applicable to execute the workflow or actions described in the ove
 
 ---
 
-## Merged Reference (legacy variant)
+## Imported Reference
 
 ---
 name: manifest
@@ -711,8 +710,7 @@ Use @manifest to connect my agent to my self-hosted Manifest instance at https:/
 - API keys always start with `mnfst_` — any other format is invalid
 - Check gateway logs first when debugging any plugin issue
 
-## Source: references/skills/llm-ops/references/legacy/langfuse/SKILL.md
-
+## Imported Module: Langfuse
 ---
 name: langfuse
 description: "Expert in Langfuse - the open-source LLM observability platform. Covers tracing, prompt management, evaluation, datasets, and integration with LangChain, LlamaIndex, and OpenAI. Essential for debug..."
@@ -958,8 +956,7 @@ Works well with: `langgraph`, `crewai`, `structured-output`, `autonomous-agents`
 This skill is applicable to execute the workflow or actions described in the overview.
 
 
-## Source: references/skills/llm-ops/references/legacy/prompt-caching/SKILL.md
-
+## Imported Module: Prompt Caching
 ---
 name: prompt-caching
 description: "Caching strategies for LLM prompts including provider-native prompt caching, response caching, and CAG (Cache Augmented Generation) Use when: prompt caching, cache prompt, response cache, cag, cache augm..."
