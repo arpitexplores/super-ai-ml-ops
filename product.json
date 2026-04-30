@@ -2,7 +2,7 @@
   "name": "super-ai-ml-ops",
   "title": "Super AI/ML Ops",
   "description": "The go-to AI vibe coding skill for AI operations: LLM evaluation, monitoring, cost control, reliability, latency, release gates, and production AI governance.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "source_catalogue": "skills-super",
   "skill_entrypoint": "SKILL.md",
   "modules": [
